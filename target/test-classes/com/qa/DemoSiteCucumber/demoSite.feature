@@ -1,7 +1,7 @@
 Feature: Demo Site various Login Attempts
-  I want to login a user successfully
+  I want to login a various users successfully
   
-  Scenario Outline: Title of your scenario outline
+  Scenario Outline: Login User "<Name>" Successfully
     Given that I can access "<Domain>"
     When I select Add User tab
     And I Enter Credentials of User "<Name>" and Password "<Password>" and submit

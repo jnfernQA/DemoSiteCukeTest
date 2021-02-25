@@ -63,7 +63,6 @@ public class StepDefinitions {
 	public void check_if_login_was_successful() {
 		targ = driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/big/blockquote/blockquote/font/center/b"));
 		String result = targ.getText();
-		
 		assertEquals("**Successful Login**", result);
 	}
 	
