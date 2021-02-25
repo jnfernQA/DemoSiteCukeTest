@@ -1,7 +1,5 @@
 Feature: Demo Site various Login Attempts
   I want to login a user successfully
-
-
   
   Scenario Outline: Title of your scenario outline
     Given that I can access "<Domain>"
